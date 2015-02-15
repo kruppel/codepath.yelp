@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C5F92B981A8FB701005FDA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F92B971A8FB701005FDA62 /* AppDelegate.swift */; };
-		C5F92B9A1A8FB701005FDA62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F92B991A8FB701005FDA62 /* ViewController.swift */; };
 		C5F92B9D1A8FB701005FDA62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F92B9B1A8FB701005FDA62 /* Main.storyboard */; };
 		C5F92B9F1A8FB701005FDA62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F92B9E1A8FB701005FDA62 /* Images.xcassets */; };
 		C5F92BA21A8FB701005FDA62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5F92BA01A8FB701005FDA62 /* LaunchScreen.xib */; };
 		C5F92BAE1A8FB701005FDA62 /* YelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F92BAD1A8FB701005FDA62 /* YelpTests.swift */; };
+		C5F92BB81A900BB5005FDA62 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F92BB71A900BB5005FDA62 /* SearchViewController.swift */; };
+		C5F92BBA1A90FDFB005FDA62 /* SearchResultTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F92BB91A90FDFB005FDA62 /* SearchResultTableCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		C5F92B921A8FB701005FDA62 /* Yelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F92B961A8FB701005FDA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5F92B971A8FB701005FDA62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5F92B991A8FB701005FDA62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5F92B9C1A8FB701005FDA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5F92B9E1A8FB701005FDA62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5F92BA11A8FB701005FDA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C5F92BA71A8FB701005FDA62 /* YelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F92BAC1A8FB701005FDA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5F92BAD1A8FB701005FDA62 /* YelpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpTests.swift; sourceTree = "<group>"; };
+		C5F92BB71A900BB5005FDA62 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C5F92BB91A90FDFB005FDA62 /* SearchResultTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultTableCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				C5F92B971A8FB701005FDA62 /* AppDelegate.swift */,
-				C5F92B991A8FB701005FDA62 /* ViewController.swift */,
 				C5F92B9B1A8FB701005FDA62 /* Main.storyboard */,
+				C5F92BB71A900BB5005FDA62 /* SearchViewController.swift */,
+				C5F92BB91A90FDFB005FDA62 /* SearchResultTableCellView.swift */,
 				C5F92B9E1A8FB701005FDA62 /* Images.xcassets */,
 				C5F92BA01A8FB701005FDA62 /* LaunchScreen.xib */,
 				C5F92B951A8FB701005FDA62 /* Supporting Files */,
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5F92B9A1A8FB701005FDA62 /* ViewController.swift in Sources */,
+				C5F92BBA1A90FDFB005FDA62 /* SearchResultTableCellView.swift in Sources */,
+				C5F92BB81A900BB5005FDA62 /* SearchViewController.swift in Sources */,
 				C5F92B981A8FB701005FDA62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
