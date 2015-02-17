@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 kruppel. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 class Business: NSObject {
     var categories:Array<NSDictionary> = []

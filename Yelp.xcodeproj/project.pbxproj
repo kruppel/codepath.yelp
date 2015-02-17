@@ -10,6 +10,12 @@
 		6B9974C90223E36A713E029A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A51AAEBADA4F4B6D6863E5A5 /* libPods.a */; };
 		C56DF9281A91980C00C988ED /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56DF9271A91980C00C988ED /* Business.swift */; };
 		C58357A01A91117E0021E7C3 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C583579F1A91117E0021E7C3 /* YelpClient.swift */; };
+		C5C312D51A92D65600548153 /* SettingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C312D41A92D65600548153 /* SettingDelegate.swift */; };
+		C5C312D71A92D68F00548153 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C312D61A92D68F00548153 /* Setting.swift */; };
+		C5C312D91A92D6C500548153 /* MultiSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C312D81A92D6C500548153 /* MultiSetting.swift */; };
+		C5C312DB1A92D6ED00548153 /* SectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C312DA1A92D6ED00548153 /* SectionDelegate.swift */; };
+		C5C312DD1A92D71A00548153 /* DropdownSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C312DC1A92D71A00548153 /* DropdownSection.swift */; };
+		C5C312DF1A92D75B00548153 /* SwitchSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C312DE1A92D75B00548153 /* SwitchSection.swift */; };
 		C5F92B981A8FB701005FDA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F92B971A8FB701005FDA62 /* AppDelegate.swift */; };
 		C5F92B9D1A8FB701005FDA62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F92B9B1A8FB701005FDA62 /* Main.storyboard */; };
 		C5F92B9F1A8FB701005FDA62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F92B9E1A8FB701005FDA62 /* Images.xcassets */; };
@@ -37,6 +43,12 @@
 		C56DF9271A91980C00C988ED /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		C583579C1A9110FC0021E7C3 /* Yelp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yelp-Bridging-Header.h"; sourceTree = "<group>"; };
 		C583579F1A91117E0021E7C3 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		C5C312D41A92D65600548153 /* SettingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingDelegate.swift; sourceTree = "<group>"; };
+		C5C312D61A92D68F00548153 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		C5C312D81A92D6C500548153 /* MultiSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSetting.swift; sourceTree = "<group>"; };
+		C5C312DA1A92D6ED00548153 /* SectionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionDelegate.swift; sourceTree = "<group>"; };
+		C5C312DC1A92D71A00548153 /* DropdownSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropdownSection.swift; sourceTree = "<group>"; };
+		C5C312DE1A92D75B00548153 /* SwitchSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchSection.swift; sourceTree = "<group>"; };
 		C5F92B921A8FB701005FDA62 /* Yelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F92B961A8FB701005FDA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5F92B971A8FB701005FDA62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,17 +113,23 @@
 		C5F92B941A8FB701005FDA62 /* Yelp */ = {
 			isa = PBXGroup;
 			children = (
-				C583579F1A91117E0021E7C3 /* YelpClient.swift */,
 				C5F92B971A8FB701005FDA62 /* AppDelegate.swift */,
-				C5F92B9B1A8FB701005FDA62 /* Main.storyboard */,
-				C5F92BB71A900BB5005FDA62 /* SearchViewController.swift */,
 				C56DF9271A91980C00C988ED /* Business.swift */,
-				C5F92BB91A90FDFB005FDA62 /* SearchResultTableCellView.swift */,
+				C5C312DC1A92D71A00548153 /* DropdownSection.swift */,
 				C5FB7C371A91DB4700E0765A /* FilterViewController.swift */,
 				C5F92B9E1A8FB701005FDA62 /* Images.xcassets */,
 				C5F92BA01A8FB701005FDA62 /* LaunchScreen.xib */,
+				C5F92B9B1A8FB701005FDA62 /* Main.storyboard */,
+				C5C312D81A92D6C500548153 /* MultiSetting.swift */,
+				C5F92BB91A90FDFB005FDA62 /* SearchResultTableCellView.swift */,
+				C5F92BB71A900BB5005FDA62 /* SearchViewController.swift */,
+				C5C312DA1A92D6ED00548153 /* SectionDelegate.swift */,
+				C5C312D61A92D68F00548153 /* Setting.swift */,
+				C5C312D41A92D65600548153 /* SettingDelegate.swift */,
 				C5F92B951A8FB701005FDA62 /* Supporting Files */,
+				C5C312DE1A92D75B00548153 /* SwitchSection.swift */,
 				C583579C1A9110FC0021E7C3 /* Yelp-Bridging-Header.h */,
+				C583579F1A91117E0021E7C3 /* YelpClient.swift */,
 			);
 			path = Yelp;
 			sourceTree = "<group>";
@@ -285,12 +303,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5C312D51A92D65600548153 /* SettingDelegate.swift in Sources */,
 				C5FB7C381A91DB4700E0765A /* FilterViewController.swift in Sources */,
 				C58357A01A91117E0021E7C3 /* YelpClient.swift in Sources */,
 				C5F92BBA1A90FDFB005FDA62 /* SearchResultTableCellView.swift in Sources */,
 				C5F92BB81A900BB5005FDA62 /* SearchViewController.swift in Sources */,
+				C5C312DF1A92D75B00548153 /* SwitchSection.swift in Sources */,
+				C5C312DD1A92D71A00548153 /* DropdownSection.swift in Sources */,
 				C56DF9281A91980C00C988ED /* Business.swift in Sources */,
+				C5C312DB1A92D6ED00548153 /* SectionDelegate.swift in Sources */,
+				C5C312D71A92D68F00548153 /* Setting.swift in Sources */,
 				C5F92B981A8FB701005FDA62 /* AppDelegate.swift in Sources */,
+				C5C312D91A92D6C500548153 /* MultiSetting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
